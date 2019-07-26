@@ -23,13 +23,13 @@ Author: 李文轩
 """
 
 
-
 import os
 import jieba
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
+
 
 def cut_words(file_path):
     """
@@ -107,6 +107,8 @@ def main():
     tf = TfidfVectorizer(stop_words=stop_words, max_df=0.5)
     train_features = tf.fit_transform(train_words_list)
     test_features = tf.transform(test_words_list)
+
+    print(train_features)
 
     """
     3.1 生成 朴素贝叶斯分类器
