@@ -3,7 +3,7 @@ Author: 李文轩
 
 中文文档分类 - 多项式贝叶斯分类算法实践
 
-数据文档：https://github.com/cystanford/text_classification
+数据文档：https://github.com/vincentlee9512/docs_classifier
 
 项目阶段：
 
