@@ -108,8 +108,6 @@ def main():
     train_features = tf.fit_transform(train_words_list)
     test_features = tf.transform(test_words_list)
 
-    print(train_features)
-
     """
     3.1 生成 朴素贝叶斯分类器
     """
